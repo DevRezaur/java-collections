@@ -2,15 +2,14 @@ package main;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 public class ArrayListClass {
 
     public static void main(String[] args) {
-        List<Integer> integerList = new ArrayList<>();
+        ArrayList<Integer> integerList = new ArrayList<>();
 
         /*
-         * Add operation adds elements to the list.
+         * Add operation adds elements to the array list.
          * It maintains insertion order.
          * Time complexity - O(1)
          */
@@ -22,15 +21,15 @@ public class ArrayListClass {
         printList(integerList);
 
         /*
-         * It returns the size of the list.
+         * It returns the size of the array list.
          * return type is always integer.
-         * Time complexity - O(n)
+         * Time complexity - O(1)
          */
         int size = integerList.size();
         System.out.println("\n\nThe size of the ArrayList is " + size);
 
         /*
-         * Set operation adds/replaces elements to the list by specific index number.
+         * Set operation adds/replaces elements to the array list by specific index number.
          * It is similar to add(index, value)
          * Time complexity - O(1)
          */
@@ -40,7 +39,7 @@ public class ArrayListClass {
         printList(integerList);
 
         /*
-         * Remove operation removes elements of a specific index from the list.
+         * Remove operation removes elements of a specific index from the array list.
          * The subsequent elements are shifted after the removal.
          * Time complexity - O(n)
          */
@@ -57,7 +56,7 @@ public class ArrayListClass {
         printList(integerList);
 
         /*
-         * Clear operation removes all the elements from the list.
+         * Clear operation removes all the elements from the array list.
          * Time complexity - O(n)
          */
         integerList.clear();
@@ -66,14 +65,14 @@ public class ArrayListClass {
     }
 
     /**
-     * Helper method for printing the list
+     * Helper method for printing the array list
      *
-     * @param list The list to be printed
+     * @param arrayList The array list to be printed
      */
-    private static void printList(List<Integer> list) {
+    private static void printList(ArrayList<Integer> arrayList) {
         System.out.println("\n\nPrinting the list");
 
-        for (Integer element : list) {
+        for (Integer element : arrayList) {
             System.out.println(element);
         }
     }

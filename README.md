@@ -24,3 +24,17 @@ replace the old one and the old one is removed.
 * Dynamic size
 * Allows duplicate and null value
 * Can not use primitive data type (int, float, double, string)
+* Best for storing and accessing data
+
+# LinkedList
+
+LinkedList is a class that implements **List** interface. The functionality and behaviour of LinkedList class is
+similar to **ArrayList**. main difference is in their internal implementation. ArrayList uses regular array and 
+LinkedList uses actual linked list as the internal implementation.
+
+* Implements List interface
+* Internal data structure is doubly linked list
+* Dynamic size
+* Allows duplicate and null value
+* Can not use primitive data type (int, float, double, string)
+* Best for manipulating data
