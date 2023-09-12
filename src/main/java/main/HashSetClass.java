@@ -13,11 +13,11 @@ public class HashSetClass {
          * Doesn't maintain insertion order.
          * Time complexity - O(1)
          */
-        hashSet.add(1);
+        hashSet.add(5);
         hashSet.add(2);
         hashSet.add(3);
         hashSet.add(4);
-        hashSet.add(5);
+        hashSet.add(1);
 
         printSet(hashSet);
 

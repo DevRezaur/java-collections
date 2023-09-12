@@ -53,3 +53,16 @@ means it doesn't allow any duplicates. And only one null value is accepted.
 * Doesn't allow duplicates and only one null value is acceptable
 * Can not use primitive data type (int, float, double, string)
 * Best for storing unique data
+
+# TreeSet
+
+TreeSet is a class that implements **NavigableSet** interface. The functionality and behaviour of TreeSet is similar to
+set that maintains insertion order.
+
+* Implements NavigableSet interface
+* Maintains insertion order
+* Internal data structure is red-black tree
+* Dynamic size
+* Doesn't allow duplicates and null values
+* Can not use primitive data type (int, float, double, string)
+* Best for storing unique data while maintaining insertion order
