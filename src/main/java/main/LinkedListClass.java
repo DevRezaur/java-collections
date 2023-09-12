@@ -28,7 +28,7 @@ public class LinkedListClass {
 
         /*
          * It returns the size of the linked list.
-         * return type is always integer.
+         * Return type is always integer.
          * Time complexity - O(1)
          */
         int size = integerLinkedList.size();
@@ -109,6 +109,20 @@ public class LinkedListClass {
         integerLinkedList.removeLast();
 
         printList(integerLinkedList);
+
+        /*
+         * Checks if the linked list contains particular element
+         * Time complexity - O(n)
+         */
+        boolean contains = integerLinkedList.contains(103);
+        System.out.println("\n\nThe result of contain is - " + contains);
+
+        /*
+         * Checks if the linked list contains all the mentioned elements
+         * Time complexity - O(n)
+         */
+        boolean containsAll = integerLinkedList.containsAll(List.of(103, 105));
+        System.out.println("\n\nThe result of contain is - " + containsAll);
 
         /*
          * Clear operation removes all the elements from the linked list.

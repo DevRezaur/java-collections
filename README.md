@@ -20,21 +20,36 @@ an element is added, it is placed into the array. If the array is not big enough
 replace the old one and the old one is removed.
 
 * Implements List interface
+* Maintains insertion order
 * Internal data structure is regular array
 * Dynamic size
-* Allows duplicate and null value
+* Allows duplicates and any number of null values
 * Can not use primitive data type (int, float, double, string)
 * Best for storing and accessing data
 
 # LinkedList
 
-LinkedList is a class that implements **List** interface. The functionality and behaviour of LinkedList class is
-similar to **ArrayList**. main difference is in their internal implementation. ArrayList uses regular array and 
-LinkedList uses actual linked list as the internal implementation.
+LinkedList is a class that implements **List** and **Deque** interface. The functionality and behaviour of LinkedList
+class is similar to **ArrayList**. main difference is in their internal implementation. ArrayList uses regular array
+and LinkedList uses actual linked list as the internal implementation.
 
-* Implements List interface
+* Implements List and Deque interface
+* Maintains insertion order
 * Internal data structure is doubly linked list
 * Dynamic size
-* Allows duplicate and null value
+* Allows duplicates and any number of null values
 * Can not use primitive data type (int, float, double, string)
 * Best for manipulating data
+
+# HashSet
+
+HashSet is a class that implements **Set** interface. The functionality and behaviour of HasSet is similar to set. That
+means it doesn't allow any duplicates. And only one null value is accepted.
+
+* Implements Set interface
+* Doesn't maintain insertion order
+* Internal data structure is hash table
+* Dynamic size
+* Doesn't allow duplicates and only one null value is acceptable
+* Can not use primitive data type (int, float, double, string)
+* Best for storing unique data

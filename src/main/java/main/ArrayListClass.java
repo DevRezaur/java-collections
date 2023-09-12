@@ -2,6 +2,7 @@ package main;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class ArrayListClass {
 
@@ -22,7 +23,7 @@ public class ArrayListClass {
 
         /*
          * It returns the size of the array list.
-         * return type is always integer.
+         * Return type is always integer.
          * Time complexity - O(1)
          */
         int size = integerList.size();
@@ -54,6 +55,20 @@ public class ArrayListClass {
         Collections.sort(integerList);
 
         printList(integerList);
+
+        /*
+         * Checks if the array list contains particular element
+         * Time complexity - O(n)
+         */
+        boolean contains = integerList.contains(103);
+        System.out.println("\n\nThe result of contain is - " + contains);
+
+        /*
+         * Checks if the array list contains all the mentioned elements
+         * Time complexity - O(n)
+         */
+        boolean containsAll = integerList.containsAll(List.of(103, 105));
+        System.out.println("\n\nThe result of contain is - " + containsAll);
 
         /*
          * Clear operation removes all the elements from the array list.
