@@ -35,8 +35,7 @@ public class LinkedListClass {
         System.out.println("\n\nThe size of the LinkedList is " + size);
 
         /*
-         * Set operation adds/replaces elements to the linked list by specific index number.
-         * It is similar to add(index, value)
+         * Set operation replaces elements to the linked list by specific index number.
          * Time complexity - O(n)
          */
         integerLinkedList.set(0, 201);
@@ -46,7 +45,6 @@ public class LinkedListClass {
 
         /*
          * Remove operation removes elements of a specific index from the linked list.
-         * The subsequent elements are shifted after the removal.
          * Time complexity - O(n)
          */
         integerLinkedList.remove(0);
@@ -63,7 +61,6 @@ public class LinkedListClass {
 
         /*
          * Adds element to the first position of the linked list.
-         * And shifts all the subsequent elements.
          * Time complexity - O(1)
          */
         integerLinkedList.addFirst(100);
@@ -94,7 +91,6 @@ public class LinkedListClass {
 
         /*
          * Removes the first element from the linked list.
-         * And shifts all the subsequent elements.
          * Time complexity - O(1)
          */
         integerLinkedList.removeFirst();
@@ -103,7 +99,6 @@ public class LinkedListClass {
 
         /*
          * Removes the last element from the linked list.
-         * And shifts all the subsequent elements.
          * Time complexity - O(1)
          */
         integerLinkedList.removeLast();

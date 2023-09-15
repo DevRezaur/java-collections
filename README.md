@@ -60,7 +60,8 @@ TreeSet is a class that implements **NavigableSet** interface. The functionality
 set that maintains insertion order.
 
 * Implements NavigableSet interface
-* Maintains insertion order
+* Doesn't insertion order
+* Sorts element upon insertion
 * Internal data structure is red-black tree
 * Dynamic size
 * Doesn't allow duplicates and null values

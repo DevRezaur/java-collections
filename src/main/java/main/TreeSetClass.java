@@ -11,6 +11,7 @@ public class TreeSetClass {
         /*
          * Add operation adds elements to the hash set.
          * Doesn't maintain insertion order.
+         * Elements are sorted upon insertion.
          * Time complexity - O(log(n))
          */
         treeSet.add(5);

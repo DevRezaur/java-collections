@@ -10,12 +10,19 @@ public class ArrayListClass {
         ArrayList<Integer> integerList = new ArrayList<>();
 
         /*
-         * Add operation adds elements to the array list.
+         * Add(value) operation adds elements to the array list.
          * It maintains insertion order.
          * Time complexity - O(1)
          */
         integerList.add(101);
         integerList.add(102);
+
+        /*
+         * Add(index, value) operation adds elements to the array list.
+         * It adds element to the array list by particular index number.
+         * Subsequent elements are shifted after the add operation.
+         * Time complexity - O(n)
+         */
         integerList.add(2, 103);
         integerList.add(3, 104);
 
@@ -30,8 +37,7 @@ public class ArrayListClass {
         System.out.println("\n\nThe size of the ArrayList is " + size);
 
         /*
-         * Set operation adds/replaces elements to the array list by specific index number.
-         * It is similar to add(index, value)
+         * Set operation replaces elements to the array list by specific index number.
          * Time complexity - O(1)
          */
         integerList.set(0, 201);
