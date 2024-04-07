@@ -13,6 +13,10 @@ TreeSet**.
 
 ![java-collection-hierarchy](./src/main/resources/image/java-collection-hierarchy.png)
 
+<hr />
+
+![collections-hierarchy](./src/main/resources/image/collections-hierarchy.png)
+
 # ArrayList
 
 ArrayList is a class that implements **List** interface. The ArrayList class has a **regular array** inside it. When
@@ -38,8 +42,34 @@ and LinkedList uses actual linked list as the internal implementation.
 * Internal data structure is doubly linked list
 * Dynamic size
 * Allows duplicates and any number of null values
-* Can not use primitive data type (int, float, double, string)
+* Cannot use primitive data type (int, float, double, string)
 * Best for manipulating data
+
+# HashMap
+
+HashMap is a class that implements **Map** interface. The functionality and behaviour of HasMap is similar to map. That
+means it doesn't allow any duplicate keys. And only one null key is accepted.
+
+* Implements Map interface
+* Doesn't insertion order
+* Internal data structure is hash table
+* Dynamic size
+* Allows no duplicate key and only one null key
+* Cannot use primitive data type (int, float, double, string)
+* Best for quickly retrieving values based on particular keys
+
+# LinkedHashMap
+
+LinkedHashMap is a class that implements **Map** interface. The functionality and behaviour of HasMap is similar to map.
+That means it doesn't allow any duplicate keys. And only one null key is accepted.
+
+* Implements Map interface
+* Maintains insertion order
+* Internal data structure is hashed map and doubly linked list
+* Dynamic size
+* Allows no duplicate key and only one null key
+* Cannot use primitive data type (int, float, double, string)
+* Best for key-value pair data that needs to maintain insertion order
 
 # HashSet
 
